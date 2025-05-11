@@ -4,20 +4,23 @@ This project is a simple banking system implemented in C++. It manages clients, 
 
 ## Project Structure
 
-- `client.h`: Defines the `client` class with properties and methods for client management.
-- `employee.h`: Defines the `employee` class, which manages clients.
-- `admin.h`: Defines the `admin` class, which manages employees.
-- `main.cpp`: Contains the main function to run the application and handle user interaction.
+-   `client.h`: Declares the `client` class.
+-   `client.cpp`: Implements the `client` class member functions.
+-   `employee.h`: Declares the `employee` class.
+-   `employee.cpp`: Implements the `employee` class member functions.
+-   `admin.h`: Declares the `admin` class.
+-   `admin.cpp`: Implements the `admin` class member functions.
+-   `main.cpp`: Contains the main function to run the application and handle user interaction.
 
 ## How to Compile and Run
 
 1.  Save the code for each file in the structure described above.
 2.  Open a terminal or command prompt.
 3.  Navigate to the project directory.
-4.  Compile the code using a C++ compiler (like g++):
+4.  Compile the code using a C++ compiler (like g++). You need to compile all `.cpp` files together:
 
     ```bash
-    g++ main.cpp client.h employee.h admin.h -o banking_system
+    g++ main.cpp client.cpp employee.cpp admin.cpp -o banking_system
     ```
 
 5.  Run the executable:
