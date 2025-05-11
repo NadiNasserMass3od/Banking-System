@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
-#include "admin.h"
+#include "admin.h"  
+#include "client.h" 
+#include "employee.h"  
 
 using namespace std;
 
